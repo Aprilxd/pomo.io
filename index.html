@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+    <title>Pomo</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+<div class="container">
+    <h1 class="title">Pomo</h1>
+<hr>
+<!-- Session Name -->
+<input type="text" id="sessionName" placeholder="Session Name">
+
+<!-- Todo Section -->
+<div class="todo-section">
+    <h3>Missions</h3>
+    <ul id="todo"></ul>
+    
+    <div class="add-todo">
+        <input type="text" id="todoinput" placeholder="Add a new mission...">
+        <button id="addMission">Add</button>
+    </div>
+</div>
+
+<p class="timer" id="timer">50:00</p>
+    <p class="sessions">Sessions Completed: <span id="sessionCount">0</span></p>
+<div class="button-wrapper"> 
+    <button id="start">Start</button>
+<button id="stop">Stop</button>
+<button id="Next">Next</button>
+</div>
+</div>
+
+
+ <script src="script.js"></script>
+</body>
+</html>
