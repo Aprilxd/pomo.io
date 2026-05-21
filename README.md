@@ -1,7 +1,7 @@
 # pomo.io
 # Gamified Pomodoro Timer
 
-A beginner project of a productivity timer built with HTML, CSS, and JavaScript.
+A beginner WIP project of a productivity timer built with HTML, CSS, and JavaScript.
 
 Features:
 - Pomodoro timer
